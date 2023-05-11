@@ -1,0 +1,25 @@
+nav {
+  background-color: transparent;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #DAD7CD;
+  text-decoration: none;
+  font-family: "Open Sans";
+  font-weight: bolder;
+  font-size: 16px;
+}
