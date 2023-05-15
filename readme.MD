@@ -15,7 +15,7 @@ You will find the Medium article I wrote on this project [here](https://medium.c
 
 ## Resources Utilized
 
-- [CleanStart.page](https://cleanstart.page/) - While brainstorming the project, I stumbed across CleanStart.  I immediately resonated with the aesthetic and it served as inspiration for the homepage of my project.
+- [CleanStart.page](https://cleanstart.page/) - While brainstorming the project, I stumbled across CleanStart.  I immediately resonated with the aesthetic and it served as inspiration for the homepage of my project.
 - [Pomodoro-Timer](https://freshman.tech/pomodoro-timer/) - I completed this code along in order to implement a Pomodoro Timer into my project.  
  - [Unsplash images for homepage](https://awik.io/generate-random-images-unsplash-without-using-api/) - I originally inteded to use the Unsplash API to generate the background images, but settled on generating an image randomly with appropriate parameters.
 
