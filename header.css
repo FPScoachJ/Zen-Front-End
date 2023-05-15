@@ -1,5 +1,5 @@
 nav {
-  background-color: transparent;
+  background-color: #344E41;
   height: 50px;
   display: flex;
   justify-content: center;
@@ -13,7 +13,7 @@ nav ul {
 }
 
 nav ul li {
-  margin: 0 10px;
+  margin: 0px 10px;
 }
 
 nav ul li a {

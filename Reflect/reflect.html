@@ -11,7 +11,7 @@
 <body>
     <nav>
   <ul>
-    <li><a href="/Index/index.html">Reboot</a></li>
+    <li><a href="/Index/index.html">Awaken</a></li>
     <li><a href="/Contemplate/contemplate.html">Contemplate</a></li>
     <li><a href="/Act/act.html">Act</a></li>
     <li><a href="/Reflect/reflect.html">Reflect</a></li>
@@ -25,9 +25,10 @@
                     <input type="text" class="entry-title" placeholder="Give your entry a title..." >
                     <textarea class="entry-textbox" placeholder="Start clearing out your head..." ></textarea>
                     <br>
-                    <button type="submit" class="primary-button right">Submit</button>
+                    <button onclick="saveAsPdfOnClick(event)" class="primary-button right" id="saveAsPDFButton">Save as PDF</button>
                 </form>
             </section>
         </main>
 </body>
+<script src="reflectScript.js"></script>
 </html>

@@ -20,16 +20,12 @@ async function getapi(url) {
     redirect: "follow", // manual, *follow, error
     referrerPolicy: "no-referrer", // no-referrer, *no-referrer-when-downgrade, origin, origin-when-cross-origin, same-origin, strict-origin, strict-origin-when-cross-origin, unsafe-url
   });
-  console.log(response);
   const data = await response.json();
-  console.log(data);
   const randomQuote = Math.floor(Math.random() * data.length);
-  console.log(data[randomQuote]);
   const zenQuote = document.createElement("h1");
   const zenAuthor = document.createElement("h3");
   zenQuote.innerText = data[randomQuote].q;
   zenAuthor.innerText = data[randomQuote].a;
-  console.log(zenQuote);
   zenQuotes.append(zenQuote, zenAuthor);
 }
 getapi(api_url);

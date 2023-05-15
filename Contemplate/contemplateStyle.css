@@ -55,3 +55,24 @@ body{
     cursor: pointer;
     outline: none;
 }
+@media screen and (max-width: 767px) {
+  .container {
+    max-width: 400px; /* Set maximum width for container on mobile devices */
+    padding: 10px; /* Reduce padding on smaller screens */
+  }
+  .timerDisplay {
+    position: relative;
+    width: 100%; /* Set width to 100% for mobile responsiveness */
+    background: #DAD7CD;
+    padding: 20px 0; /* Reduce padding for mobile */
+    font-family: 'Roboto mono', monospace;
+    color: #000000;
+    font-size: 2rem; /* Use rem or em units for font-size */
+    display: flex;
+    flex-wrap: wrap; /* Add flex-wrap for content to wrap on smaller screens */
+    align-items: center;
+    justify-content: center; /* Adjust justify-content for mobile */
+    border-radius: 5px;
+    box-shadow: 0 0 20px #588157;
+}
+}
